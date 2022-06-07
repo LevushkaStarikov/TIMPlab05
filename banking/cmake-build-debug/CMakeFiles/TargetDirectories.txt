@@ -1,0 +1,3 @@
+/Users/levstarikov/Documents/TIMP/lab05/banking/cmake-build-debug/CMakeFiles/banking.dir
+/Users/levstarikov/Documents/TIMP/lab05/banking/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/levstarikov/Documents/TIMP/lab05/banking/cmake-build-debug/CMakeFiles/rebuild_cache.dir

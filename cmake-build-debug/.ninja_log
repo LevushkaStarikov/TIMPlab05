@@ -1,0 +1,14 @@
+# ninja log v5
+0	219	1654545843485908023	CMakeFiles/banking.dir/banking/Account.cpp.o	cf3c41959afd75ac
+1	453	1654545843718868463	CMakeFiles/banking.dir/banking/Transaction.cpp.o	8ec0f05bb4af80b8
+453	495	1654545843764501000	libbanking.a	5a54510b6cd4a3e2
+2	616	1654545843881028043	googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	c06464b95dcc3a63
+1	638	1654545843904650843	CMakeFiles/check.dir/tests/test.cpp.o	abe054ded176db5b
+1	2403	1654545845663737664	googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	bacb8be65dc53aa1
+2404	2443	1654545845712096000	lib/libgtest.a	39900c68662c249
+2443	2456	1654545845724945000	lib/libgtest_main.a	54be1f67112d1e48
+2456	2546	1654545845814048573	check	62bc0a64849aa168
+2	761	1654581767102183263	CMakeFiles/check.dir/tests/test.cpp.o	abe054ded176db5b
+761	873	1654581767217423854	check	62bc0a64849aa168
+5	632	1654582616629384579	CMakeFiles/check.dir/tests/test.cpp.o	abe054ded176db5b
+632	728	1654582616729408799	check	62bc0a64849aa168
