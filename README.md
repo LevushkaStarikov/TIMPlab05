@@ -6,6 +6,8 @@
 $ open https://github.com/google/googletest
 ```
 
+[![Coverage Status](https://coveralls.io/repos/github/LevushkaStarikov/TIMPlab05/badge.svg?branch=master)](https://coveralls.io/github/LevushkaStarikov/TIMPlab05?branch=master)
+
 ## Tasks
 
 - [ ] 1. Создать публичный репозиторий с названием **lab05** на сервисе **GitHub**
