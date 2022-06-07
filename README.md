@@ -8,6 +8,9 @@ $ open https://github.com/google/googletest
 
 [![Coverage Status](https://coveralls.io/repos/github/LevushkaStarikov/TIMPlab05/badge.svg?branch=master)](https://coveralls.io/github/LevushkaStarikov/TIMPlab05?branch=master)
 
+Я не знаю почему картинка не апдейтится но вот тут написано что у меня 100% покрытие 
+https://coveralls.io/github/LevushkaStarikov/TIMPlab05
+
 ## Tasks
 
 - [ ] 1. Создать публичный репозиторий с названием **lab05** на сервисе **GitHub**
