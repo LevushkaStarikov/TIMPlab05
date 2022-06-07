@@ -32,6 +32,24 @@ jobs:
           cd _build
           make
           cd ..
+  coveralls:
+    runs-on: ubuntu-latest
+   
+    steps:
+    
+      - name: downlad_lcov
+        run: |
+          sudo apt-get install -y lcov
+      - name: lcov
+        run: |
+          lcov --capture --directory _build/CMakeFiles/banking.dir/banking -o ./lcov.info
+      - name: coveralls_use
+        uses: coverallsapp/github-action@master
+        with:
+            path-to-lcov: "./lcov.info"
+        
+     
+   
 
      
      
