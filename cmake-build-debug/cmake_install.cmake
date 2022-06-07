@@ -1,4 +1,4 @@
-# Install script for directory: /Users/levstarikov/Documents/TIMP/lab05
+# Install script for directory: /Users/levstarikov/Documents/TIMP/TIMP5/TIMPlab05
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/levstarikov/Documents/TIMP/lab05/cmake-build-debug/googletest/cmake_install.cmake")
+  include("/Users/levstarikov/Documents/TIMP/TIMP5/TIMPlab05/cmake-build-debug/googletest/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/levstarikov/Documents/TIMP/lab05/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/levstarikov/Documents/TIMP/TIMP5/TIMPlab05/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

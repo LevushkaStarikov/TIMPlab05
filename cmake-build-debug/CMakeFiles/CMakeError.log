@@ -20,5 +20,5 @@ ld: library not found for -lc++
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
 
-The CXX compiler identification could not be found in "/Users/levstarikov/Documents/TIMP/lab05/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.gcno"
+The CXX compiler identification could not be found in "/Users/levstarikov/Documents/TIMP/TIMP5/TIMPlab05/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.gcno"
 
