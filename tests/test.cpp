@@ -32,3 +32,14 @@ TEST(Transaction, transaction_sum) {
         EXPECT_TRUE(transaction.Make(fAcc1, tAcc, 100));
         EXPECT_FALSE(transaction.Make(fAcc2, tAcc, 105));
 }
+
+//тест на ошибку перевода на один и тот же аккаунт
+TEST(Transaction, transaction_id) {
+    Account Acc(100, 110);
+    Transaction transaction;
+    try {
+        EXPECT_FALSE(transaction.Make(Acc, Acc, 100));
+    } catch (std::logic_error& error){
+        EXPECT_EQ(error.what(), std::string("invalid action"));
+    }
+}
