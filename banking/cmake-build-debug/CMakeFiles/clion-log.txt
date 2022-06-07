@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /Users/levstarikov/Documents/TIMP/lab05/banking Select CMakeLists.txt

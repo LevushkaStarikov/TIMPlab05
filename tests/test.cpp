@@ -3,7 +3,7 @@
 #include "Account.h"
 
 //тест на работу аккаунта и баланса
-TEST(Trans, account) {
+TEST(Transaction, account) {
 Account Acc(101, 100);
 EXPECT_EQ(Acc.GetBalance(), 100);
 }
@@ -19,4 +19,16 @@ TEST(Transaction, change_balance) {
     Acc.Lock();
     Acc.ChangeBalance(100);
     EXPECT_EQ(Acc.GetBalance(), 200);
+}
+
+
+
+//тест на перевод между аккаунтами и проверку баланса
+TEST(Transaction, transaction_sum) {
+        Account fAcc1(100, 110);
+        Account fAcc2(101, 101);
+        Account tAcc(200, 0);
+        Transaction transaction;
+        EXPECT_TRUE(transaction.Make(fAcc1, tAcc, 100));
+        EXPECT_FALSE(transaction.Make(fAcc2, tAcc, 105));
 }
