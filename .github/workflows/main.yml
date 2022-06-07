@@ -36,6 +36,9 @@ jobs:
     runs-on: ubuntu-latest
    
     steps:
+      - name: git clone
+        uses: actions/checkout@v2
+    
       - name: testing
         run: |
           git submodule update --init --recursive
