@@ -36,7 +36,14 @@ jobs:
     runs-on: ubuntu-latest
    
     steps:
-    
+      - name: testing
+        run: |
+          git submodule update --init --recursive
+          cmake -B _build
+          cd _build
+          make
+          ./check
+          cd ..
       - name: downlad_lcov
         run: |
           sudo apt-get install -y lcov
